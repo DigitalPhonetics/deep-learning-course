@@ -22,6 +22,7 @@ Bash (Bourne Again SHell) is a command processor that typically runs in a text w
 - `ps`: Displays information about active processes.
 - `kill`: Terminates processes.
 - `man`: Displays the manual for a command.
+- `nvidia-smi`: Displays information about the GPUs and their usage.
 
-Most important command to free GPU memory:
+To kill all your processes (e.g., to free GPU memory if you have some stale processes):
 - `killall --user $USER`
