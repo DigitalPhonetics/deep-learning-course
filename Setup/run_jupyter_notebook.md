@@ -1,3 +1,5 @@
+# Instructions for running Jupyter Notebooks
+
 First, you may want to set up a new Python environment for each project (recommended!) in which you are going to install all the packages.\
 Conda has this feature built-in, for pip you can install a package which will handle this for you with `pip install virtualenv` (or install using your OS package manager, see https://virtualenv.pypa.io/en/latest/installation.html).s
 
