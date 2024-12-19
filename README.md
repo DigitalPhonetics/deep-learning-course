@@ -13,3 +13,6 @@ This repository collects the tutorials for the deep learning course and accompan
 * [PyTorch 2](PyTorch_2): Data Loading & Processing and Model Development for NLP
 * [PyTorch 3](PyTorch_3): Training, Inference, Checkpoint Handling
 * [PyTorch 4](PyTorch_4): Language Models
+
+## Help, Feedback & Other Questions
+Contact us via ILIAS (e.g., in the forum), or [open an issue](https://github.com/DigitalPhonetics/deep-learning-course/issues/new/choose) in the GitHub repository!

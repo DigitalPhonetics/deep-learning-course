@@ -1,5 +1,8 @@
 # Integrated Development Environment (IDE)
 
+An IDE helps you with setting up your project, writing code, and running your application.
+It includes features like syntax highlighting, code completion, debugging, and much more.
+
 ## IDEs for Python Development
 
 You can choose your preferred IDE but we can support you best with issues regarding VS code.
@@ -36,27 +39,4 @@ https://code.visualstudio.com/docs/remote/ssh
 
 5. **Open a remote folder**: Once connected, you can open any folder on the remote machine and start working on your code.
 
-## Copying SSH Public Key to Remote Server
-
-To enable passwordless authentication, you need to copy your SSH public key to the remote server. 
-For more detailed instructions, refer to the official documentation: https://www.ssh.com/academy/ssh/copy-id
-
-Follow these steps:
-
-1. **Generate an SSH key pair**: If you don't already have an SSH key pair, generate one using the following command:
-    ```sh
-    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-    ```
-    Follow the prompts to save the key pair in the default location (`~/.ssh/id_rsa`).
-
-2. **Copy the public key to the remote server**: Use the `ssh-copy-id` command to copy your public key to the remote server:
-    ```sh
-    ssh-copy-id user@hostname
-    ```
-    Replace `user` with your username and `hostname` with the remote server's address.
-
-3. **Verify SSH key authentication**: Test the connection to ensure that the SSH key authentication is working:
-    ```sh
-    ssh user@hostname
-    ```
-    You should be able to connect to the remote server without being prompted for a password.
+Also consider our instructions on [SSH](ssh.md) for more information.
