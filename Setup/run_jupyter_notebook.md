@@ -11,7 +11,7 @@ Afterwards activate the environment with `conda activate <env_name>` (conda) or 
 
 See also here for documentation: https://docs.conda.io/projects/conda/en/latest/commands/create.html (conda) / https://virtualenv.pypa.io/en/latest/cli_interface.html (virtualenv)
 
-For running these Jupyter Notebooks, make sure to install Jupyter Notebook with pip (`pip install notebook`) or with conda (`conda install -c conda-forge notebook`).\
+For running Jupyter Notebooks, make sure to install Jupyter Notebook with pip (`pip install notebook`) or with conda (`conda install -c conda-forge notebook`).\
 See the Jupyter Notebook documentation at https://jupyter.org/install#jupyter-notebook for more information.
 
 You may then run Jupyter Notebook in the current directory with `jupyter notebook`.
