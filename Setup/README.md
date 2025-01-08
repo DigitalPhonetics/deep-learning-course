@@ -9,7 +9,7 @@ Most of you probably already have worked with Linux, and feel free to consult ot
 
 Although you can run Python directly from the command-line (e.g., in a Linux terminal), for this course, we use Jupyter Notebooks where Python runs interactively in separate steps (so called cells).
 
-For setting up these Jupyter Notebook, check out our [instructions](run_jupyter_notebook.md).
+For setting up these Jupyter Notebooks, check out our [instructions](run_jupyter_notebook.md).
 Then you can continue with setting up PyTorch as described in [this](pytorch_setup.ipynb) Jupyter Notebook.
 
 # Troubleshooting
