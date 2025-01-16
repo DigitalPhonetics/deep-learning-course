@@ -1,4 +1,4 @@
-# PyTorch 2 Examples
+# PyTorch Example Tasks
 
 This folder contains Jupyter Notebooks for two example tasks using PyTorch 2:
 
