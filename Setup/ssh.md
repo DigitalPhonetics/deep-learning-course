@@ -39,3 +39,32 @@ Follow these steps:
     ssh user@hostname
     ```
     You should be able to connect to the remote server without being prompted for a password.
+
+## Port Forwarding
+
+Port forwarding allows you to securely forward ports from your local machine to a remote server, or vice versa. This can be useful for accessing services running on a remote server as if they were running on your local machine.
+
+### Local Port Forwarding
+
+Local port forwarding forwards traffic coming to a local port to a specified remote port. This is useful for accessing a service on a remote server through a local port.
+
+To set up local port forwarding, use the following command:
+```sh
+ssh -L local_port:remote_host:remote_port user@hostname
+```
+Replace `local_port` with the port on your local machine, `remote_host` with the address of the remote server, `remote_port` with the port on the remote server, `user` with your username, and `hostname` with the remote server's address.
+
+Example:
+```sh
+ssh -L 8080:localhost:80 user@hostname
+```
+This command forwards traffic from `localhost:8080` on your local machine to `localhost:80` on the remote server.
+
+### Running SSH in the Background with Port Forwarding
+
+You can run SSH in the background while setting up port forwarding using the `-f` and `-N` arguments. The `-f` argument tells SSH to go to the background just before command execution, and the `-N` argument tells SSH not to execute a remote command. This is useful when you only want to forward ports.
+
+Example:
+```sh
+ssh -fNL 8080:localhost:80 user@hostname
+```

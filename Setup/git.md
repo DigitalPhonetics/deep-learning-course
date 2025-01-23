@@ -15,3 +15,31 @@ Common Git commands:
 - `git commit`: Commit staged changes to the repository.
 - `git push`: Push local commits to a remote repository.
 - `git pull`: Fetch and merge changes from a remote repository.
+
+## Basic Usage of `git clone` and `git pull`
+
+### `git clone`
+The `git clone` command is used to create a copy of an existing Git repository. This is typically the first command you run when you want to start working on a project that is hosted on a remote server. The syntax is:
+```
+git clone <repository-url>
+```
+For example:
+```
+git clone https://github.com/DigitalPhonetics/deep-learning-course.git
+```
+This command will download the entire repository, including its history, to your local machine.
+
+### `git pull`
+The `git pull` command is used to fetch and merge changes from a remote repository into your current branch. This is useful for keeping your local repository up-to-date with the latest changes from collaborators. The syntax is:
+```
+git pull <remote> <branch>
+```
+For example:
+```
+git pull origin main
+```
+This command will fetch the latest changes from the `main` branch of the `origin` remote (the default one) and merge them into your current branch.
+
+Note that there are conflicts if a file was changed on the remote server and in your local copy.
+If you never plan to push to a repository, you can revert your changes by running `git checkout .` in the root of your local copy.
+Make sure to first save any changes as needed since they will be lost otherwise.

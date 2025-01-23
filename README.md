@@ -12,9 +12,8 @@ This repository collects the tutorials for the deep learning course and accompan
   * [Simple neural network](PyTorch_1/4_create_nn.ipynb)
 * [PyTorch 2](PyTorch_2): Data Loading & Processing and Model Development for NLP
   * [Example Task: Sentiment Analysis](PyTorch_2/sentiment_analysis.ipynb)
-  * Example Task: Part-Of-Speech Tagging
-* [PyTorch 3](PyTorch_3): Training, Inference, Checkpoint Handling
-* [PyTorch 4](PyTorch_4): Language Models
+  * [Example Task: Part-Of-Speech Tagging](PyTorch_2/pos_tagging.ipynb)
+* [PyTorch 3](PyTorch_3): Language Models
 
 ## How To Start
 1. Open a terminal.

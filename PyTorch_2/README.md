@@ -6,6 +6,6 @@ This folder contains Jupyter Notebooks for two example tasks using PyTorch 2:
 
 This notebook demonstrates how to perform Sentiment Analysis on SST2 using GloVe embeddings and simple NNs.
 
-<!-- ## [pos_tagging](pos_tagging.ipynb)
+## [pos_tagging.ipynb](pos_tagging.ipynb)
 
-This notebook demonstrates how to perform Part-of-Speech (POS) Tagging on UDPOS. -->
+This notebook demonstrates how to perform Part-of-Speech (POS) Tagging using GloVe embeddings and GPU acceleration.

@@ -11,6 +11,7 @@ Although you can run Python directly from the command-line (e.g., in a Linux ter
 
 For setting up these Jupyter Notebooks, check out our [instructions](run_jupyter_notebook.md).
 Then you can continue with setting up PyTorch as described in [this](pytorch_setup.ipynb) Jupyter Notebook.
+For GPU usage in PyTorch refer to [this](git.md) instruction.
 
 # Troubleshooting
 
