@@ -26,6 +26,19 @@ git clone https://github.com/DigitalPhonetics/deep-learning-course.git
 5. Set up PyTorch as described in [this](pytorch_setup.ipynb) Jupyter Notebook.
 6. Now you should be ready to use PyTorch in Python, and to be able to run all Jupyter Notebooks of this course.
 
+## Compute Resources for Course Activities
+
+The following resources are available to students for course-related activities such as training neural networks:
+
+### Institute Resources
+- **IMS Servers (phoenix, dodo, kiwi, strauss, nandu)**: Computing resources provided by the IMS which can be accessed via SSH using your IMS account. GPUs are available on some servers.
+
+### External Resources
+- **bwCloud**: Provides virtual machines (VMs). [First Steps](https://www.bw-cloud.org/en/first_steps). GPUs are not available.
+- **bwUniCluster**: Access to compute clusters via SSH & scheduler. [Apply for Computing Time](https://www.hlrs.de/apply-for-computing-time/bw-uni-cluster). GPUs are available.
+- **Google Colab**: Hosted Jupyter notebooks. [Google Colab](https://colab.research.google.com). Free tier includes limited GPU access.
+- **Deepnote**: Similar to Colab, with a focus on collaboration. [Deepnote](https://deepnote.com). GPUs are available on paid plans.
+
 ## Help, Feedback & Other Questions
 Many commands provide a help if you call them with the `-h` or `--help` argument, or appear in the manual with `man command` where *command* is the name of the command.
 
